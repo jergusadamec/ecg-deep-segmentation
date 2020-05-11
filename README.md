@@ -22,7 +22,9 @@ _TODO_
 -->
 
 #### Dataset Overview
-Our provided dataset is constructed from three different data sources - namely
+_The data are not provided due to NDA contract._
+
+Our dataset is constructed from three different data sources - namely
 _database#1_, _database#2_ and _database#3_.
 
 Structure of `split.csv`:
