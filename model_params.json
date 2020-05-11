@@ -1,0 +1,14 @@
+{
+  "seg-net": {
+    "input_size": 1,
+    "hidden_size": 32,
+    "num_layers": 2,
+    "out_size": 5
+  },
+  "cnn-seg-net": {
+    "input_size": 1,
+    "hidden_size": 32,
+    "kernel_size": 3,
+    "out_size": 5
+  }
+}

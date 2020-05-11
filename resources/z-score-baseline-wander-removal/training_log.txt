@@ -1,0 +1,802 @@
+cuda
+Tesla K80
+EPOCH:0 Iter:20 of 122 Loss:1.3982 Acc:0.5439
+EPOCH:0 Iter:40 of 122 Loss:1.3305 Acc:0.5087
+EPOCH:0 Iter:60 of 122 Loss:1.2835 Acc:0.5020
+EPOCH:0 Iter:80 of 122 Loss:1.2078 Acc:0.5263
+EPOCH:0 Iter:100 of 122 Loss:1.2887 Acc:0.5236
+EPOCH:0 Iter:120 of 122 Loss:1.1561 Acc:0.5743
+epoch:0,train ACC: 0.5991
+epoch:0,val ACC: 0.5758
+EPOCH:1 Iter:20 of 122 Loss:0.9483 Acc:0.6376
+EPOCH:1 Iter:40 of 122 Loss:0.9652 Acc:0.6114
+EPOCH:1 Iter:60 of 122 Loss:0.8161 Acc:0.6955
+EPOCH:1 Iter:80 of 122 Loss:0.9378 Acc:0.6501
+EPOCH:1 Iter:100 of 122 Loss:0.8258 Acc:0.7010
+EPOCH:1 Iter:120 of 122 Loss:0.8649 Acc:0.6790
+epoch:1,train ACC: 0.7113
+epoch:1,val ACC: 0.7075
+EPOCH:2 Iter:20 of 122 Loss:0.7116 Acc:0.7490
+EPOCH:2 Iter:40 of 122 Loss:0.7606 Acc:0.7301
+EPOCH:2 Iter:60 of 122 Loss:0.7925 Acc:0.7077
+EPOCH:2 Iter:80 of 122 Loss:0.6887 Acc:0.7312
+EPOCH:2 Iter:100 of 122 Loss:0.6477 Acc:0.7594
+EPOCH:2 Iter:120 of 122 Loss:0.6534 Acc:0.7662
+epoch:2,train ACC: 0.7811
+epoch:2,val ACC: 0.7785
+EPOCH:3 Iter:20 of 122 Loss:0.5915 Acc:0.8126
+EPOCH:3 Iter:40 of 122 Loss:0.5369 Acc:0.8317
+EPOCH:3 Iter:60 of 122 Loss:0.5068 Acc:0.8214
+EPOCH:3 Iter:80 of 122 Loss:0.6341 Acc:0.7905
+EPOCH:3 Iter:100 of 122 Loss:0.4453 Acc:0.8626
+EPOCH:3 Iter:120 of 122 Loss:0.5393 Acc:0.8132
+epoch:3,train ACC: 0.8356
+epoch:3,val ACC: 0.8377
+EPOCH:4 Iter:20 of 122 Loss:0.5358 Acc:0.8259
+EPOCH:4 Iter:40 of 122 Loss:0.5223 Acc:0.8254
+EPOCH:4 Iter:60 of 122 Loss:0.3560 Acc:0.8771
+EPOCH:4 Iter:80 of 122 Loss:0.5243 Acc:0.8229
+EPOCH:4 Iter:100 of 122 Loss:0.4362 Acc:0.8513
+EPOCH:4 Iter:120 of 122 Loss:0.4379 Acc:0.8609
+epoch:4,train ACC: 0.8470
+epoch:4,val ACC: 0.8426
+EPOCH:5 Iter:20 of 122 Loss:0.4713 Acc:0.8351
+EPOCH:5 Iter:40 of 122 Loss:0.5053 Acc:0.8203
+EPOCH:5 Iter:60 of 122 Loss:0.4524 Acc:0.8385
+EPOCH:5 Iter:80 of 122 Loss:0.5615 Acc:0.8219
+EPOCH:5 Iter:100 of 122 Loss:0.4093 Acc:0.8703
+EPOCH:5 Iter:120 of 122 Loss:0.4105 Acc:0.8690
+epoch:5,train ACC: 0.8614
+epoch:5,val ACC: 0.8527
+EPOCH:6 Iter:20 of 122 Loss:0.4109 Acc:0.8658
+EPOCH:6 Iter:40 of 122 Loss:0.3862 Acc:0.8707
+EPOCH:6 Iter:60 of 122 Loss:0.3940 Acc:0.8562
+EPOCH:6 Iter:80 of 122 Loss:0.4270 Acc:0.8547
+EPOCH:6 Iter:100 of 122 Loss:0.4360 Acc:0.8474
+EPOCH:6 Iter:120 of 122 Loss:0.3680 Acc:0.8690
+epoch:6,train ACC: 0.8572
+epoch:6,val ACC: 0.8406
+EPOCH:7 Iter:20 of 122 Loss:0.3920 Acc:0.8643
+EPOCH:7 Iter:40 of 122 Loss:0.4165 Acc:0.8578
+EPOCH:7 Iter:60 of 122 Loss:0.4952 Acc:0.8352
+EPOCH:7 Iter:80 of 122 Loss:0.3944 Acc:0.8523
+EPOCH:7 Iter:100 of 122 Loss:0.3787 Acc:0.8662
+EPOCH:7 Iter:120 of 122 Loss:0.3897 Acc:0.8672
+epoch:7,train ACC: 0.8616
+epoch:7,val ACC: 0.8504
+EPOCH:8 Iter:20 of 122 Loss:0.4121 Acc:0.8604
+EPOCH:8 Iter:40 of 122 Loss:0.3720 Acc:0.8634
+EPOCH:8 Iter:60 of 122 Loss:0.3727 Acc:0.8655
+EPOCH:8 Iter:80 of 122 Loss:0.3746 Acc:0.8739
+EPOCH:8 Iter:100 of 122 Loss:0.4078 Acc:0.8598
+EPOCH:8 Iter:120 of 122 Loss:0.3593 Acc:0.8824
+epoch:8,train ACC: 0.8724
+epoch:8,val ACC: 0.8707
+EPOCH:9 Iter:20 of 122 Loss:0.2936 Acc:0.9013
+EPOCH:9 Iter:40 of 122 Loss:0.3948 Acc:0.8686
+EPOCH:9 Iter:60 of 122 Loss:0.4168 Acc:0.8561
+EPOCH:9 Iter:80 of 122 Loss:0.4128 Acc:0.8544
+EPOCH:9 Iter:100 of 122 Loss:0.3510 Acc:0.8729
+EPOCH:9 Iter:120 of 122 Loss:0.3260 Acc:0.8871
+epoch:9,train ACC: 0.8809
+epoch:9,val ACC: 0.8773
+EPOCH:10 Iter:20 of 122 Loss:0.4621 Acc:0.8463
+EPOCH:10 Iter:40 of 122 Loss:0.3483 Acc:0.8723
+EPOCH:10 Iter:60 of 122 Loss:0.3487 Acc:0.8767
+EPOCH:10 Iter:80 of 122 Loss:0.3328 Acc:0.8815
+EPOCH:10 Iter:100 of 122 Loss:0.3662 Acc:0.8743
+EPOCH:10 Iter:120 of 122 Loss:0.2957 Acc:0.8979
+epoch:10,train ACC: 0.8763
+epoch:10,val ACC: 0.8725
+EPOCH:11 Iter:20 of 122 Loss:0.4094 Acc:0.8661
+EPOCH:11 Iter:40 of 122 Loss:0.3586 Acc:0.8749
+EPOCH:11 Iter:60 of 122 Loss:0.4215 Acc:0.8526
+EPOCH:11 Iter:80 of 122 Loss:0.3596 Acc:0.8693
+EPOCH:11 Iter:100 of 122 Loss:0.3374 Acc:0.8776
+EPOCH:11 Iter:120 of 122 Loss:0.4866 Acc:0.8555
+epoch:11,train ACC: 0.8858
+epoch:11,val ACC: 0.8752
+EPOCH:12 Iter:20 of 122 Loss:0.4303 Acc:0.8401
+EPOCH:12 Iter:40 of 122 Loss:0.3952 Acc:0.8527
+EPOCH:12 Iter:60 of 122 Loss:0.3551 Acc:0.8791
+EPOCH:12 Iter:80 of 122 Loss:0.2530 Acc:0.9108
+EPOCH:12 Iter:100 of 122 Loss:0.4130 Acc:0.8783
+EPOCH:12 Iter:120 of 122 Loss:0.2550 Acc:0.9102
+epoch:12,train ACC: 0.8906
+epoch:12,val ACC: 0.8815
+EPOCH:13 Iter:20 of 122 Loss:0.4746 Acc:0.8442
+EPOCH:13 Iter:40 of 122 Loss:0.2729 Acc:0.8996
+EPOCH:13 Iter:60 of 122 Loss:0.2918 Acc:0.9017
+EPOCH:13 Iter:80 of 122 Loss:0.2754 Acc:0.8963
+EPOCH:13 Iter:100 of 122 Loss:0.3245 Acc:0.8808
+EPOCH:13 Iter:120 of 122 Loss:0.2578 Acc:0.9088
+epoch:13,train ACC: 0.8927
+epoch:13,val ACC: 0.8826
+EPOCH:14 Iter:20 of 122 Loss:0.2693 Acc:0.9004
+EPOCH:14 Iter:40 of 122 Loss:0.4178 Acc:0.8489
+EPOCH:14 Iter:60 of 122 Loss:0.3154 Acc:0.8891
+EPOCH:14 Iter:80 of 122 Loss:0.4307 Acc:0.8510
+EPOCH:14 Iter:100 of 122 Loss:0.2828 Acc:0.8938
+EPOCH:14 Iter:120 of 122 Loss:0.3355 Acc:0.8798
+epoch:14,train ACC: 0.8925
+epoch:14,val ACC: 0.8827
+EPOCH:15 Iter:20 of 122 Loss:0.2796 Acc:0.8991
+EPOCH:15 Iter:40 of 122 Loss:0.3353 Acc:0.8700
+EPOCH:15 Iter:60 of 122 Loss:0.3237 Acc:0.8866
+EPOCH:15 Iter:80 of 122 Loss:0.2900 Acc:0.8913
+EPOCH:15 Iter:100 of 122 Loss:0.2926 Acc:0.8861
+EPOCH:15 Iter:120 of 122 Loss:0.2849 Acc:0.8966
+epoch:15,train ACC: 0.8991
+epoch:15,val ACC: 0.8913
+EPOCH:16 Iter:20 of 122 Loss:0.2682 Acc:0.9119
+EPOCH:16 Iter:40 of 122 Loss:0.2933 Acc:0.8920
+EPOCH:16 Iter:60 of 122 Loss:0.4032 Acc:0.8763
+EPOCH:16 Iter:80 of 122 Loss:0.3373 Acc:0.8882
+EPOCH:16 Iter:100 of 122 Loss:0.3838 Acc:0.8445
+EPOCH:16 Iter:120 of 122 Loss:0.2919 Acc:0.8990
+epoch:16,train ACC: 0.8925
+epoch:16,val ACC: 0.8835
+EPOCH:17 Iter:20 of 122 Loss:0.2458 Acc:0.9072
+EPOCH:17 Iter:40 of 122 Loss:0.3135 Acc:0.8959
+EPOCH:17 Iter:60 of 122 Loss:0.3062 Acc:0.8780
+EPOCH:17 Iter:80 of 122 Loss:0.2717 Acc:0.9065
+EPOCH:17 Iter:100 of 122 Loss:0.2765 Acc:0.8918
+EPOCH:17 Iter:120 of 122 Loss:0.2643 Acc:0.8946
+epoch:17,train ACC: 0.9008
+epoch:17,val ACC: 0.8952
+EPOCH:18 Iter:20 of 122 Loss:0.3377 Acc:0.8777
+EPOCH:18 Iter:40 of 122 Loss:0.3011 Acc:0.8946
+EPOCH:18 Iter:60 of 122 Loss:0.3771 Acc:0.8766
+EPOCH:18 Iter:80 of 122 Loss:0.2090 Acc:0.9219
+EPOCH:18 Iter:100 of 122 Loss:0.2743 Acc:0.9020
+EPOCH:18 Iter:120 of 122 Loss:0.2841 Acc:0.8922
+epoch:18,train ACC: 0.9031
+epoch:18,val ACC: 0.8942
+EPOCH:19 Iter:20 of 122 Loss:0.3356 Acc:0.8714
+EPOCH:19 Iter:40 of 122 Loss:0.3060 Acc:0.8912
+EPOCH:19 Iter:60 of 122 Loss:0.3180 Acc:0.8822
+EPOCH:19 Iter:80 of 122 Loss:0.3141 Acc:0.8830
+EPOCH:19 Iter:100 of 122 Loss:0.2950 Acc:0.8874
+EPOCH:19 Iter:120 of 122 Loss:0.2996 Acc:0.9011
+epoch:19,train ACC: 0.9024
+epoch:19,val ACC: 0.8876
+EPOCH:20 Iter:20 of 122 Loss:0.2680 Acc:0.9080
+EPOCH:20 Iter:40 of 122 Loss:0.3104 Acc:0.8889
+EPOCH:20 Iter:60 of 122 Loss:0.2840 Acc:0.8966
+EPOCH:20 Iter:80 of 122 Loss:0.2914 Acc:0.9023
+EPOCH:20 Iter:100 of 122 Loss:0.4239 Acc:0.8578
+EPOCH:20 Iter:120 of 122 Loss:0.2854 Acc:0.8967
+epoch:20,train ACC: 0.9074
+epoch:20,val ACC: 0.8948
+EPOCH:21 Iter:20 of 122 Loss:0.2510 Acc:0.9064
+EPOCH:21 Iter:40 of 122 Loss:0.3134 Acc:0.8906
+EPOCH:21 Iter:60 of 122 Loss:0.2332 Acc:0.9176
+EPOCH:21 Iter:80 of 122 Loss:0.3244 Acc:0.8830
+EPOCH:21 Iter:100 of 122 Loss:0.3269 Acc:0.8828
+EPOCH:21 Iter:120 of 122 Loss:0.3969 Acc:0.8612
+epoch:21,train ACC: 0.9002
+epoch:21,val ACC: 0.8916
+EPOCH:22 Iter:20 of 122 Loss:0.2452 Acc:0.9116
+EPOCH:22 Iter:40 of 122 Loss:0.2926 Acc:0.8896
+EPOCH:22 Iter:60 of 122 Loss:0.2673 Acc:0.9004
+EPOCH:22 Iter:80 of 122 Loss:0.2741 Acc:0.9021
+EPOCH:22 Iter:100 of 122 Loss:0.2305 Acc:0.9122
+EPOCH:22 Iter:120 of 122 Loss:0.2922 Acc:0.8906
+epoch:22,train ACC: 0.8993
+epoch:22,val ACC: 0.8887
+EPOCH:23 Iter:20 of 122 Loss:0.2499 Acc:0.9044
+EPOCH:23 Iter:40 of 122 Loss:0.2574 Acc:0.9082
+EPOCH:23 Iter:60 of 122 Loss:0.3372 Acc:0.8629
+EPOCH:23 Iter:80 of 122 Loss:0.2642 Acc:0.9013
+EPOCH:23 Iter:100 of 122 Loss:0.3013 Acc:0.8892
+EPOCH:23 Iter:120 of 122 Loss:0.2223 Acc:0.9183
+epoch:23,train ACC: 0.9071
+epoch:23,val ACC: 0.8959
+EPOCH:24 Iter:20 of 122 Loss:0.2993 Acc:0.8955
+EPOCH:24 Iter:40 of 122 Loss:0.3458 Acc:0.8817
+EPOCH:24 Iter:60 of 122 Loss:0.2378 Acc:0.9132
+EPOCH:24 Iter:80 of 122 Loss:0.2856 Acc:0.8884
+EPOCH:24 Iter:100 of 122 Loss:0.3515 Acc:0.8902
+EPOCH:24 Iter:120 of 122 Loss:0.2314 Acc:0.9089
+epoch:24,train ACC: 0.9071
+epoch:24,val ACC: 0.8976
+EPOCH:25 Iter:20 of 122 Loss:0.2078 Acc:0.9163
+EPOCH:25 Iter:40 of 122 Loss:0.2491 Acc:0.9084
+EPOCH:25 Iter:60 of 122 Loss:0.2667 Acc:0.8939
+EPOCH:25 Iter:80 of 122 Loss:0.2691 Acc:0.9006
+EPOCH:25 Iter:100 of 122 Loss:0.2707 Acc:0.9026
+EPOCH:25 Iter:120 of 122 Loss:0.2555 Acc:0.8974
+epoch:25,train ACC: 0.9126
+epoch:25,val ACC: 0.9032
+EPOCH:26 Iter:20 of 122 Loss:0.1927 Acc:0.9276
+EPOCH:26 Iter:40 of 122 Loss:0.2980 Acc:0.8899
+EPOCH:26 Iter:60 of 122 Loss:0.2629 Acc:0.9009
+EPOCH:26 Iter:80 of 122 Loss:0.2470 Acc:0.9087
+EPOCH:26 Iter:100 of 122 Loss:0.2604 Acc:0.9040
+EPOCH:26 Iter:120 of 122 Loss:0.2857 Acc:0.8939
+epoch:26,train ACC: 0.9147
+epoch:26,val ACC: 0.9029
+EPOCH:27 Iter:20 of 122 Loss:0.2488 Acc:0.9074
+EPOCH:27 Iter:40 of 122 Loss:0.3692 Acc:0.8686
+EPOCH:27 Iter:60 of 122 Loss:0.2141 Acc:0.9216
+EPOCH:27 Iter:80 of 122 Loss:0.2548 Acc:0.9067
+EPOCH:27 Iter:100 of 122 Loss:0.2587 Acc:0.9112
+EPOCH:27 Iter:120 of 122 Loss:0.2276 Acc:0.9101
+epoch:27,train ACC: 0.9080
+epoch:27,val ACC: 0.8881
+EPOCH:28 Iter:20 of 122 Loss:0.2026 Acc:0.9261
+EPOCH:28 Iter:40 of 122 Loss:0.2320 Acc:0.9129
+EPOCH:28 Iter:60 of 122 Loss:0.2230 Acc:0.9153
+EPOCH:28 Iter:80 of 122 Loss:0.2367 Acc:0.9136
+EPOCH:28 Iter:100 of 122 Loss:0.3173 Acc:0.8993
+EPOCH:28 Iter:120 of 122 Loss:0.2307 Acc:0.9118
+epoch:28,train ACC: 0.9091
+epoch:28,val ACC: 0.8912
+EPOCH:29 Iter:20 of 122 Loss:0.2067 Acc:0.9205
+EPOCH:29 Iter:40 of 122 Loss:0.2498 Acc:0.9101
+EPOCH:29 Iter:60 of 122 Loss:0.2218 Acc:0.9101
+EPOCH:29 Iter:80 of 122 Loss:0.1723 Acc:0.9382
+EPOCH:29 Iter:100 of 122 Loss:0.2203 Acc:0.9189
+EPOCH:29 Iter:120 of 122 Loss:0.2838 Acc:0.8925
+epoch:29,train ACC: 0.9150
+epoch:29,val ACC: 0.9052
+EPOCH:30 Iter:20 of 122 Loss:0.2325 Acc:0.9122
+EPOCH:30 Iter:40 of 122 Loss:0.2110 Acc:0.9236
+EPOCH:30 Iter:60 of 122 Loss:0.2511 Acc:0.9051
+EPOCH:30 Iter:80 of 122 Loss:0.2626 Acc:0.9020
+EPOCH:30 Iter:100 of 122 Loss:0.2690 Acc:0.9152
+EPOCH:30 Iter:120 of 122 Loss:0.2645 Acc:0.8972
+epoch:30,train ACC: 0.9174
+epoch:30,val ACC: 0.9045
+EPOCH:31 Iter:20 of 122 Loss:0.2820 Acc:0.8945
+EPOCH:31 Iter:40 of 122 Loss:0.2063 Acc:0.9260
+EPOCH:31 Iter:60 of 122 Loss:0.2052 Acc:0.9229
+EPOCH:31 Iter:80 of 122 Loss:0.2054 Acc:0.9203
+EPOCH:31 Iter:100 of 122 Loss:0.1932 Acc:0.9264
+EPOCH:31 Iter:120 of 122 Loss:0.2207 Acc:0.9155
+epoch:31,train ACC: 0.9184
+epoch:31,val ACC: 0.9070
+EPOCH:32 Iter:20 of 122 Loss:0.3033 Acc:0.8990
+EPOCH:32 Iter:40 of 122 Loss:0.1851 Acc:0.9327
+EPOCH:32 Iter:60 of 122 Loss:0.2467 Acc:0.9036
+EPOCH:32 Iter:80 of 122 Loss:0.2374 Acc:0.9195
+EPOCH:32 Iter:100 of 122 Loss:0.2367 Acc:0.9097
+EPOCH:32 Iter:120 of 122 Loss:0.3077 Acc:0.8997
+epoch:32,train ACC: 0.9173
+epoch:32,val ACC: 0.9044
+EPOCH:33 Iter:20 of 122 Loss:0.2092 Acc:0.9223
+EPOCH:33 Iter:40 of 122 Loss:0.2987 Acc:0.8905
+EPOCH:33 Iter:60 of 122 Loss:0.2410 Acc:0.9254
+EPOCH:33 Iter:80 of 122 Loss:0.3097 Acc:0.8899
+EPOCH:33 Iter:100 of 122 Loss:0.2685 Acc:0.9047
+EPOCH:33 Iter:120 of 122 Loss:0.2485 Acc:0.9098
+epoch:33,train ACC: 0.9130
+epoch:33,val ACC: 0.8958
+EPOCH:34 Iter:20 of 122 Loss:0.2434 Acc:0.9102
+EPOCH:34 Iter:40 of 122 Loss:0.2518 Acc:0.9017
+EPOCH:34 Iter:60 of 122 Loss:0.2521 Acc:0.9118
+EPOCH:34 Iter:80 of 122 Loss:0.3142 Acc:0.8827
+EPOCH:34 Iter:100 of 122 Loss:0.1924 Acc:0.9261
+EPOCH:34 Iter:120 of 122 Loss:0.2604 Acc:0.9001
+epoch:34,train ACC: 0.9145
+epoch:34,val ACC: 0.9004
+EPOCH:35 Iter:20 of 122 Loss:0.2653 Acc:0.8918
+EPOCH:35 Iter:40 of 122 Loss:0.2378 Acc:0.9128
+EPOCH:35 Iter:60 of 122 Loss:0.3647 Acc:0.8690
+EPOCH:35 Iter:80 of 122 Loss:0.2144 Acc:0.9216
+EPOCH:35 Iter:100 of 122 Loss:0.2034 Acc:0.9214
+EPOCH:35 Iter:120 of 122 Loss:0.2559 Acc:0.9092
+epoch:35,train ACC: 0.9203
+epoch:35,val ACC: 0.9058
+EPOCH:36 Iter:20 of 122 Loss:0.2122 Acc:0.9226
+EPOCH:36 Iter:40 of 122 Loss:0.2050 Acc:0.9261
+EPOCH:36 Iter:60 of 122 Loss:0.2066 Acc:0.9193
+EPOCH:36 Iter:80 of 122 Loss:0.2804 Acc:0.9053
+EPOCH:36 Iter:100 of 122 Loss:0.1781 Acc:0.9347
+EPOCH:36 Iter:120 of 122 Loss:0.3198 Acc:0.9139
+epoch:36,train ACC: 0.9187
+epoch:36,val ACC: 0.9033
+EPOCH:37 Iter:20 of 122 Loss:0.2127 Acc:0.9187
+EPOCH:37 Iter:40 of 122 Loss:0.2744 Acc:0.8928
+EPOCH:37 Iter:60 of 122 Loss:0.2540 Acc:0.9041
+EPOCH:37 Iter:80 of 122 Loss:0.2396 Acc:0.9078
+EPOCH:37 Iter:100 of 122 Loss:0.2296 Acc:0.9139
+EPOCH:37 Iter:120 of 122 Loss:0.2864 Acc:0.9034
+epoch:37,train ACC: 0.9214
+epoch:37,val ACC: 0.9070
+EPOCH:38 Iter:20 of 122 Loss:0.2032 Acc:0.9200
+EPOCH:38 Iter:40 of 122 Loss:0.3165 Acc:0.9033
+EPOCH:38 Iter:60 of 122 Loss:0.2825 Acc:0.9050
+EPOCH:38 Iter:80 of 122 Loss:0.2290 Acc:0.9099
+EPOCH:38 Iter:100 of 122 Loss:0.2497 Acc:0.9111
+EPOCH:38 Iter:120 of 122 Loss:0.2041 Acc:0.9251
+epoch:38,train ACC: 0.9237
+epoch:38,val ACC: 0.9088
+EPOCH:39 Iter:20 of 122 Loss:0.2047 Acc:0.9183
+EPOCH:39 Iter:40 of 122 Loss:0.2547 Acc:0.9072
+EPOCH:39 Iter:60 of 122 Loss:0.2410 Acc:0.9062
+EPOCH:39 Iter:80 of 122 Loss:0.1828 Acc:0.9313
+EPOCH:39 Iter:100 of 122 Loss:0.1887 Acc:0.9288
+EPOCH:39 Iter:120 of 122 Loss:0.2204 Acc:0.9162
+epoch:39,train ACC: 0.9230
+epoch:39,val ACC: 0.9104
+EPOCH:40 Iter:20 of 122 Loss:0.2389 Acc:0.9185
+EPOCH:40 Iter:40 of 122 Loss:0.2769 Acc:0.8855
+EPOCH:40 Iter:60 of 122 Loss:0.1882 Acc:0.9227
+EPOCH:40 Iter:80 of 122 Loss:0.2103 Acc:0.9175
+EPOCH:40 Iter:100 of 122 Loss:0.2046 Acc:0.9259
+EPOCH:40 Iter:120 of 122 Loss:0.2068 Acc:0.9205
+epoch:40,train ACC: 0.9201
+epoch:40,val ACC: 0.9017
+EPOCH:41 Iter:20 of 122 Loss:0.1692 Acc:0.9364
+EPOCH:41 Iter:40 of 122 Loss:0.2259 Acc:0.9064
+EPOCH:41 Iter:60 of 122 Loss:0.2104 Acc:0.9182
+EPOCH:41 Iter:80 of 122 Loss:0.2300 Acc:0.9075
+EPOCH:41 Iter:100 of 122 Loss:0.2901 Acc:0.9018
+EPOCH:41 Iter:120 of 122 Loss:0.2743 Acc:0.8952
+epoch:41,train ACC: 0.9256
+epoch:41,val ACC: 0.9109
+EPOCH:42 Iter:20 of 122 Loss:0.2089 Acc:0.9241
+EPOCH:42 Iter:40 of 122 Loss:0.2136 Acc:0.9148
+EPOCH:42 Iter:60 of 122 Loss:0.1697 Acc:0.9339
+EPOCH:42 Iter:80 of 122 Loss:0.1832 Acc:0.9372
+EPOCH:42 Iter:100 of 122 Loss:0.1974 Acc:0.9257
+EPOCH:42 Iter:120 of 122 Loss:0.2721 Acc:0.8938
+epoch:42,train ACC: 0.9253
+epoch:42,val ACC: 0.9085
+EPOCH:43 Iter:20 of 122 Loss:0.2197 Acc:0.9145
+EPOCH:43 Iter:40 of 122 Loss:0.2080 Acc:0.9239
+EPOCH:43 Iter:60 of 122 Loss:0.1559 Acc:0.9403
+EPOCH:43 Iter:80 of 122 Loss:0.1890 Acc:0.9287
+EPOCH:43 Iter:100 of 122 Loss:0.1971 Acc:0.9268
+EPOCH:43 Iter:120 of 122 Loss:0.2141 Acc:0.9280
+epoch:43,train ACC: 0.9273
+epoch:43,val ACC: 0.9107
+EPOCH:44 Iter:20 of 122 Loss:0.1523 Acc:0.9423
+EPOCH:44 Iter:40 of 122 Loss:0.1788 Acc:0.9317
+EPOCH:44 Iter:60 of 122 Loss:0.2048 Acc:0.9274
+EPOCH:44 Iter:80 of 122 Loss:0.3438 Acc:0.8824
+EPOCH:44 Iter:100 of 122 Loss:0.1622 Acc:0.9395
+EPOCH:44 Iter:120 of 122 Loss:0.1898 Acc:0.9243
+epoch:44,train ACC: 0.9264
+epoch:44,val ACC: 0.9060
+EPOCH:45 Iter:20 of 122 Loss:0.1815 Acc:0.9277
+EPOCH:45 Iter:40 of 122 Loss:0.2237 Acc:0.9053
+EPOCH:45 Iter:60 of 122 Loss:0.2237 Acc:0.9146
+EPOCH:45 Iter:80 of 122 Loss:0.2092 Acc:0.9178
+EPOCH:45 Iter:100 of 122 Loss:0.1747 Acc:0.9371
+EPOCH:45 Iter:120 of 122 Loss:0.2195 Acc:0.9173
+epoch:45,train ACC: 0.9260
+epoch:45,val ACC: 0.9096
+EPOCH:46 Iter:20 of 122 Loss:0.1423 Acc:0.9460
+EPOCH:46 Iter:40 of 122 Loss:0.2621 Acc:0.9102
+EPOCH:46 Iter:60 of 122 Loss:0.1919 Acc:0.9246
+EPOCH:46 Iter:80 of 122 Loss:0.1544 Acc:0.9389
+EPOCH:46 Iter:100 of 122 Loss:0.2084 Acc:0.9186
+EPOCH:46 Iter:120 of 122 Loss:0.2280 Acc:0.9114
+epoch:46,train ACC: 0.9287
+epoch:46,val ACC: 0.9123
+EPOCH:47 Iter:20 of 122 Loss:0.1917 Acc:0.9324
+EPOCH:47 Iter:40 of 122 Loss:0.2264 Acc:0.9172
+EPOCH:47 Iter:60 of 122 Loss:0.2444 Acc:0.9085
+EPOCH:47 Iter:80 of 122 Loss:0.2186 Acc:0.9128
+EPOCH:47 Iter:100 of 122 Loss:0.2193 Acc:0.9139
+EPOCH:47 Iter:120 of 122 Loss:0.2214 Acc:0.9155
+epoch:47,train ACC: 0.9131
+epoch:47,val ACC: 0.8986
+EPOCH:48 Iter:20 of 122 Loss:0.2424 Acc:0.9126
+EPOCH:48 Iter:40 of 122 Loss:0.2985 Acc:0.9064
+EPOCH:48 Iter:60 of 122 Loss:0.2292 Acc:0.9169
+EPOCH:48 Iter:80 of 122 Loss:0.2060 Acc:0.9202
+EPOCH:48 Iter:100 of 122 Loss:0.2236 Acc:0.9149
+EPOCH:48 Iter:120 of 122 Loss:0.1805 Acc:0.9297
+epoch:48,train ACC: 0.9278
+epoch:48,val ACC: 0.9129
+EPOCH:49 Iter:20 of 122 Loss:0.2009 Acc:0.9212
+EPOCH:49 Iter:40 of 122 Loss:0.2495 Acc:0.9047
+EPOCH:49 Iter:60 of 122 Loss:0.1880 Acc:0.9325
+EPOCH:49 Iter:80 of 122 Loss:0.1862 Acc:0.9280
+EPOCH:49 Iter:100 of 122 Loss:0.2129 Acc:0.9143
+EPOCH:49 Iter:120 of 122 Loss:0.2420 Acc:0.9021
+epoch:49,train ACC: 0.9218
+epoch:49,val ACC: 0.9092
+EPOCH:50 Iter:20 of 122 Loss:0.1659 Acc:0.9402
+EPOCH:50 Iter:40 of 122 Loss:0.2340 Acc:0.9109
+EPOCH:50 Iter:60 of 122 Loss:0.2159 Acc:0.9161
+EPOCH:50 Iter:80 of 122 Loss:0.2128 Acc:0.9195
+EPOCH:50 Iter:100 of 122 Loss:0.1701 Acc:0.9429
+EPOCH:50 Iter:120 of 122 Loss:0.2011 Acc:0.9270
+epoch:50,train ACC: 0.9289
+epoch:50,val ACC: 0.9135
+EPOCH:51 Iter:20 of 122 Loss:0.1986 Acc:0.9214
+EPOCH:51 Iter:40 of 122 Loss:0.2059 Acc:0.9254
+EPOCH:51 Iter:60 of 122 Loss:0.1684 Acc:0.9322
+EPOCH:51 Iter:80 of 122 Loss:0.2373 Acc:0.9138
+EPOCH:51 Iter:100 of 122 Loss:0.2505 Acc:0.9072
+EPOCH:51 Iter:120 of 122 Loss:0.2038 Acc:0.9253
+epoch:51,train ACC: 0.9269
+epoch:51,val ACC: 0.9092
+EPOCH:52 Iter:20 of 122 Loss:0.2036 Acc:0.9320
+EPOCH:52 Iter:40 of 122 Loss:0.2023 Acc:0.9234
+EPOCH:52 Iter:60 of 122 Loss:0.2094 Acc:0.9195
+EPOCH:52 Iter:80 of 122 Loss:0.1970 Acc:0.9263
+EPOCH:52 Iter:100 of 122 Loss:0.2608 Acc:0.9000
+EPOCH:52 Iter:120 of 122 Loss:0.1805 Acc:0.9266
+epoch:52,train ACC: 0.9317
+epoch:52,val ACC: 0.9164
+EPOCH:53 Iter:20 of 122 Loss:0.1985 Acc:0.9214
+EPOCH:53 Iter:40 of 122 Loss:0.1751 Acc:0.9349
+EPOCH:53 Iter:60 of 122 Loss:0.2335 Acc:0.9108
+EPOCH:53 Iter:80 of 122 Loss:0.1762 Acc:0.9284
+EPOCH:53 Iter:100 of 122 Loss:0.2701 Acc:0.9065
+EPOCH:53 Iter:120 of 122 Loss:0.2676 Acc:0.9001
+epoch:53,train ACC: 0.8975
+epoch:53,val ACC: 0.8888
+EPOCH:54 Iter:20 of 122 Loss:0.2569 Acc:0.8973
+EPOCH:54 Iter:40 of 122 Loss:0.2598 Acc:0.8969
+EPOCH:54 Iter:60 of 122 Loss:0.2114 Acc:0.9161
+EPOCH:54 Iter:80 of 122 Loss:0.2060 Acc:0.9244
+EPOCH:54 Iter:100 of 122 Loss:0.2288 Acc:0.9170
+EPOCH:54 Iter:120 of 122 Loss:0.2015 Acc:0.9261
+epoch:54,train ACC: 0.9259
+epoch:54,val ACC: 0.9101
+EPOCH:55 Iter:20 of 122 Loss:0.2046 Acc:0.9176
+EPOCH:55 Iter:40 of 122 Loss:0.1637 Acc:0.9425
+EPOCH:55 Iter:60 of 122 Loss:0.1889 Acc:0.9280
+EPOCH:55 Iter:80 of 122 Loss:0.1957 Acc:0.9270
+EPOCH:55 Iter:100 of 122 Loss:0.2295 Acc:0.9089
+EPOCH:55 Iter:120 of 122 Loss:0.1815 Acc:0.9300
+epoch:55,train ACC: 0.9296
+epoch:55,val ACC: 0.9156
+EPOCH:56 Iter:20 of 122 Loss:0.2145 Acc:0.9250
+EPOCH:56 Iter:40 of 122 Loss:0.2101 Acc:0.9206
+EPOCH:56 Iter:60 of 122 Loss:0.1812 Acc:0.9338
+EPOCH:56 Iter:80 of 122 Loss:0.2196 Acc:0.9250
+EPOCH:56 Iter:100 of 122 Loss:0.1812 Acc:0.9307
+EPOCH:56 Iter:120 of 122 Loss:0.2279 Acc:0.9142
+epoch:56,train ACC: 0.9301
+epoch:56,val ACC: 0.9167
+EPOCH:57 Iter:20 of 122 Loss:0.2231 Acc:0.9203
+EPOCH:57 Iter:40 of 122 Loss:0.1769 Acc:0.9339
+EPOCH:57 Iter:60 of 122 Loss:0.1991 Acc:0.9263
+EPOCH:57 Iter:80 of 122 Loss:0.1771 Acc:0.9318
+EPOCH:57 Iter:100 of 122 Loss:0.1767 Acc:0.9300
+EPOCH:57 Iter:120 of 122 Loss:0.2533 Acc:0.9132
+epoch:57,train ACC: 0.9236
+epoch:57,val ACC: 0.9153
+EPOCH:58 Iter:20 of 122 Loss:0.2204 Acc:0.9180
+EPOCH:58 Iter:40 of 122 Loss:0.1914 Acc:0.9249
+EPOCH:58 Iter:60 of 122 Loss:0.1762 Acc:0.9304
+EPOCH:58 Iter:80 of 122 Loss:0.1969 Acc:0.9237
+EPOCH:58 Iter:100 of 122 Loss:0.1800 Acc:0.9295
+EPOCH:58 Iter:120 of 122 Loss:0.2288 Acc:0.9217
+epoch:58,train ACC: 0.9301
+epoch:58,val ACC: 0.9152
+EPOCH:59 Iter:20 of 122 Loss:0.1802 Acc:0.9337
+EPOCH:59 Iter:40 of 122 Loss:0.2188 Acc:0.9241
+EPOCH:59 Iter:60 of 122 Loss:0.1701 Acc:0.9371
+EPOCH:59 Iter:80 of 122 Loss:0.2080 Acc:0.9162
+EPOCH:59 Iter:100 of 122 Loss:0.1952 Acc:0.9261
+EPOCH:59 Iter:120 of 122 Loss:0.2172 Acc:0.9173
+epoch:59,train ACC: 0.9298
+epoch:59,val ACC: 0.9116
+EPOCH:60 Iter:20 of 122 Loss:0.1872 Acc:0.9260
+EPOCH:60 Iter:40 of 122 Loss:0.1801 Acc:0.9339
+EPOCH:60 Iter:60 of 122 Loss:0.1882 Acc:0.9246
+EPOCH:60 Iter:80 of 122 Loss:0.1698 Acc:0.9386
+EPOCH:60 Iter:100 of 122 Loss:0.2317 Acc:0.9091
+EPOCH:60 Iter:120 of 122 Loss:0.1780 Acc:0.9335
+epoch:60,train ACC: 0.9338
+epoch:60,val ACC: 0.9187
+EPOCH:61 Iter:20 of 122 Loss:0.1747 Acc:0.9332
+EPOCH:61 Iter:40 of 122 Loss:0.1862 Acc:0.9260
+EPOCH:61 Iter:60 of 122 Loss:0.1754 Acc:0.9365
+EPOCH:61 Iter:80 of 122 Loss:0.1701 Acc:0.9371
+EPOCH:61 Iter:100 of 122 Loss:0.2510 Acc:0.9050
+EPOCH:61 Iter:120 of 122 Loss:0.2049 Acc:0.9178
+epoch:61,train ACC: 0.9339
+epoch:61,val ACC: 0.9182
+EPOCH:62 Iter:20 of 122 Loss:0.1914 Acc:0.9244
+EPOCH:62 Iter:40 of 122 Loss:0.2054 Acc:0.9202
+EPOCH:62 Iter:60 of 122 Loss:0.1816 Acc:0.9278
+EPOCH:62 Iter:80 of 122 Loss:0.1685 Acc:0.9413
+EPOCH:62 Iter:100 of 122 Loss:0.1746 Acc:0.9369
+EPOCH:62 Iter:120 of 122 Loss:0.1817 Acc:0.9251
+epoch:62,train ACC: 0.9335
+epoch:62,val ACC: 0.9220
+EPOCH:63 Iter:20 of 122 Loss:0.1427 Acc:0.9460
+EPOCH:63 Iter:40 of 122 Loss:0.2031 Acc:0.9185
+EPOCH:63 Iter:60 of 122 Loss:0.1888 Acc:0.9294
+EPOCH:63 Iter:80 of 122 Loss:0.2123 Acc:0.9227
+EPOCH:63 Iter:100 of 122 Loss:0.1981 Acc:0.9239
+EPOCH:63 Iter:120 of 122 Loss:0.2314 Acc:0.9139
+epoch:63,train ACC: 0.9345
+epoch:63,val ACC: 0.9198
+EPOCH:64 Iter:20 of 122 Loss:0.2026 Acc:0.9277
+EPOCH:64 Iter:40 of 122 Loss:0.1593 Acc:0.9374
+EPOCH:64 Iter:60 of 122 Loss:0.2407 Acc:0.9226
+EPOCH:64 Iter:80 of 122 Loss:0.1695 Acc:0.9379
+EPOCH:64 Iter:100 of 122 Loss:0.2056 Acc:0.9195
+EPOCH:64 Iter:120 of 122 Loss:0.1874 Acc:0.9297
+epoch:64,train ACC: 0.9335
+epoch:64,val ACC: 0.9200
+EPOCH:65 Iter:20 of 122 Loss:0.1783 Acc:0.9261
+EPOCH:65 Iter:40 of 122 Loss:0.1599 Acc:0.9406
+EPOCH:65 Iter:60 of 122 Loss:0.1699 Acc:0.9334
+EPOCH:65 Iter:80 of 122 Loss:0.2007 Acc:0.9243
+EPOCH:65 Iter:100 of 122 Loss:0.1866 Acc:0.9372
+EPOCH:65 Iter:120 of 122 Loss:0.1856 Acc:0.9271
+epoch:65,train ACC: 0.9338
+epoch:65,val ACC: 0.9149
+EPOCH:66 Iter:20 of 122 Loss:0.1760 Acc:0.9332
+EPOCH:66 Iter:40 of 122 Loss:0.1670 Acc:0.9371
+EPOCH:66 Iter:60 of 122 Loss:0.1602 Acc:0.9374
+EPOCH:66 Iter:80 of 122 Loss:0.1739 Acc:0.9322
+EPOCH:66 Iter:100 of 122 Loss:0.1618 Acc:0.9412
+EPOCH:66 Iter:120 of 122 Loss:0.1829 Acc:0.9345
+epoch:66,train ACC: 0.9339
+epoch:66,val ACC: 0.9145
+EPOCH:67 Iter:20 of 122 Loss:0.2333 Acc:0.9247
+EPOCH:67 Iter:40 of 122 Loss:0.1612 Acc:0.9349
+EPOCH:67 Iter:60 of 122 Loss:0.1899 Acc:0.9281
+EPOCH:67 Iter:80 of 122 Loss:0.1650 Acc:0.9348
+EPOCH:67 Iter:100 of 122 Loss:0.1853 Acc:0.9257
+EPOCH:67 Iter:120 of 122 Loss:0.1956 Acc:0.9246
+epoch:67,train ACC: 0.9334
+epoch:67,val ACC: 0.9176
+EPOCH:68 Iter:20 of 122 Loss:0.1495 Acc:0.9376
+EPOCH:68 Iter:40 of 122 Loss:0.1814 Acc:0.9264
+EPOCH:68 Iter:60 of 122 Loss:0.2195 Acc:0.9065
+EPOCH:68 Iter:80 of 122 Loss:0.2258 Acc:0.9138
+EPOCH:68 Iter:100 of 122 Loss:0.1809 Acc:0.9268
+EPOCH:68 Iter:120 of 122 Loss:0.2418 Acc:0.9142
+epoch:68,train ACC: 0.9357
+epoch:68,val ACC: 0.9219
+EPOCH:69 Iter:20 of 122 Loss:0.1790 Acc:0.9310
+EPOCH:69 Iter:40 of 122 Loss:0.1509 Acc:0.9403
+EPOCH:69 Iter:60 of 122 Loss:0.1771 Acc:0.9349
+EPOCH:69 Iter:80 of 122 Loss:0.1781 Acc:0.9307
+EPOCH:69 Iter:100 of 122 Loss:0.1915 Acc:0.9280
+EPOCH:69 Iter:120 of 122 Loss:0.1733 Acc:0.9361
+epoch:69,train ACC: 0.9340
+epoch:69,val ACC: 0.9174
+EPOCH:70 Iter:20 of 122 Loss:0.1956 Acc:0.9286
+EPOCH:70 Iter:40 of 122 Loss:0.1554 Acc:0.9391
+EPOCH:70 Iter:60 of 122 Loss:0.1753 Acc:0.9375
+EPOCH:70 Iter:80 of 122 Loss:0.1902 Acc:0.9286
+EPOCH:70 Iter:100 of 122 Loss:0.1916 Acc:0.9256
+EPOCH:70 Iter:120 of 122 Loss:0.2510 Acc:0.9158
+epoch:70,train ACC: 0.9323
+epoch:70,val ACC: 0.9129
+EPOCH:71 Iter:20 of 122 Loss:0.1873 Acc:0.9251
+EPOCH:71 Iter:40 of 122 Loss:0.1652 Acc:0.9382
+EPOCH:71 Iter:60 of 122 Loss:0.1574 Acc:0.9382
+EPOCH:71 Iter:80 of 122 Loss:0.1711 Acc:0.9331
+EPOCH:71 Iter:100 of 122 Loss:0.2085 Acc:0.9357
+EPOCH:71 Iter:120 of 122 Loss:0.1917 Acc:0.9291
+epoch:71,train ACC: 0.9374
+epoch:71,val ACC: 0.9189
+EPOCH:72 Iter:20 of 122 Loss:0.1655 Acc:0.9328
+EPOCH:72 Iter:40 of 122 Loss:0.1680 Acc:0.9342
+EPOCH:72 Iter:60 of 122 Loss:0.1425 Acc:0.9453
+EPOCH:72 Iter:80 of 122 Loss:0.1634 Acc:0.9366
+EPOCH:72 Iter:100 of 122 Loss:0.1896 Acc:0.9293
+EPOCH:72 Iter:120 of 122 Loss:0.2061 Acc:0.9213
+epoch:72,train ACC: 0.9346
+epoch:72,val ACC: 0.9153
+EPOCH:73 Iter:20 of 122 Loss:0.1925 Acc:0.9303
+EPOCH:73 Iter:40 of 122 Loss:0.1955 Acc:0.9273
+EPOCH:73 Iter:60 of 122 Loss:0.2234 Acc:0.9212
+EPOCH:73 Iter:80 of 122 Loss:0.1915 Acc:0.9317
+EPOCH:73 Iter:100 of 122 Loss:0.1794 Acc:0.9293
+EPOCH:73 Iter:120 of 122 Loss:0.1556 Acc:0.9385
+epoch:73,train ACC: 0.9357
+epoch:73,val ACC: 0.9188
+EPOCH:74 Iter:20 of 122 Loss:0.2350 Acc:0.9141
+EPOCH:74 Iter:40 of 122 Loss:0.1792 Acc:0.9345
+EPOCH:74 Iter:60 of 122 Loss:0.1560 Acc:0.9452
+EPOCH:74 Iter:80 of 122 Loss:0.2220 Acc:0.9213
+EPOCH:74 Iter:100 of 122 Loss:0.1626 Acc:0.9369
+EPOCH:74 Iter:120 of 122 Loss:0.1665 Acc:0.9341
+epoch:74,train ACC: 0.9363
+epoch:74,val ACC: 0.9205
+EPOCH:75 Iter:20 of 122 Loss:0.1715 Acc:0.9381
+EPOCH:75 Iter:40 of 122 Loss:0.1484 Acc:0.9422
+EPOCH:75 Iter:60 of 122 Loss:0.1684 Acc:0.9366
+EPOCH:75 Iter:80 of 122 Loss:0.1585 Acc:0.9388
+EPOCH:75 Iter:100 of 122 Loss:0.1465 Acc:0.9426
+EPOCH:75 Iter:120 of 122 Loss:0.1502 Acc:0.9396
+epoch:75,train ACC: 0.9370
+epoch:75,val ACC: 0.9167
+EPOCH:76 Iter:20 of 122 Loss:0.1452 Acc:0.9432
+EPOCH:76 Iter:40 of 122 Loss:0.1441 Acc:0.9415
+EPOCH:76 Iter:60 of 122 Loss:0.1569 Acc:0.9392
+EPOCH:76 Iter:80 of 122 Loss:0.2723 Acc:0.8973
+EPOCH:76 Iter:100 of 122 Loss:0.2066 Acc:0.9159
+EPOCH:76 Iter:120 of 122 Loss:0.2679 Acc:0.9175
+epoch:76,train ACC: 0.9316
+epoch:76,val ACC: 0.9179
+EPOCH:77 Iter:20 of 122 Loss:0.1848 Acc:0.9303
+EPOCH:77 Iter:40 of 122 Loss:0.1812 Acc:0.9320
+EPOCH:77 Iter:60 of 122 Loss:0.1526 Acc:0.9399
+EPOCH:77 Iter:80 of 122 Loss:0.1698 Acc:0.9348
+EPOCH:77 Iter:100 of 122 Loss:0.2079 Acc:0.9203
+EPOCH:77 Iter:120 of 122 Loss:0.2336 Acc:0.9128
+epoch:77,train ACC: 0.9309
+epoch:77,val ACC: 0.9109
+EPOCH:78 Iter:20 of 122 Loss:0.1548 Acc:0.9416
+EPOCH:78 Iter:40 of 122 Loss:0.1939 Acc:0.9301
+EPOCH:78 Iter:60 of 122 Loss:0.1723 Acc:0.9286
+EPOCH:78 Iter:80 of 122 Loss:0.1584 Acc:0.9347
+EPOCH:78 Iter:100 of 122 Loss:0.1557 Acc:0.9445
+EPOCH:78 Iter:120 of 122 Loss:0.1767 Acc:0.9277
+epoch:78,train ACC: 0.9324
+epoch:78,val ACC: 0.9118
+EPOCH:79 Iter:20 of 122 Loss:0.1808 Acc:0.9354
+EPOCH:79 Iter:40 of 122 Loss:0.1362 Acc:0.9480
+EPOCH:79 Iter:60 of 122 Loss:0.1813 Acc:0.9339
+EPOCH:79 Iter:80 of 122 Loss:0.2489 Acc:0.9234
+EPOCH:79 Iter:100 of 122 Loss:0.1763 Acc:0.9307
+EPOCH:79 Iter:120 of 122 Loss:0.1722 Acc:0.9313
+epoch:79,train ACC: 0.9379
+epoch:79,val ACC: 0.9235
+EPOCH:80 Iter:20 of 122 Loss:0.1458 Acc:0.9450
+EPOCH:80 Iter:40 of 122 Loss:0.1746 Acc:0.9334
+EPOCH:80 Iter:60 of 122 Loss:0.1859 Acc:0.9268
+EPOCH:80 Iter:80 of 122 Loss:0.1571 Acc:0.9384
+EPOCH:80 Iter:100 of 122 Loss:0.1791 Acc:0.9286
+EPOCH:80 Iter:120 of 122 Loss:0.1497 Acc:0.9409
+epoch:80,train ACC: 0.9373
+epoch:80,val ACC: 0.9112
+EPOCH:81 Iter:20 of 122 Loss:0.1507 Acc:0.9418
+EPOCH:81 Iter:40 of 122 Loss:0.1651 Acc:0.9357
+EPOCH:81 Iter:60 of 122 Loss:0.1432 Acc:0.9435
+EPOCH:81 Iter:80 of 122 Loss:0.1600 Acc:0.9385
+EPOCH:81 Iter:100 of 122 Loss:0.1773 Acc:0.9311
+EPOCH:81 Iter:120 of 122 Loss:0.1948 Acc:0.9303
+epoch:81,train ACC: 0.9359
+epoch:81,val ACC: 0.9175
+EPOCH:82 Iter:20 of 122 Loss:0.2100 Acc:0.9199
+EPOCH:82 Iter:40 of 122 Loss:0.1498 Acc:0.9433
+EPOCH:82 Iter:60 of 122 Loss:0.2338 Acc:0.9366
+EPOCH:82 Iter:80 of 122 Loss:0.1876 Acc:0.9318
+EPOCH:82 Iter:100 of 122 Loss:0.1925 Acc:0.9229
+EPOCH:82 Iter:120 of 122 Loss:0.1422 Acc:0.9435
+epoch:82,train ACC: 0.9387
+epoch:82,val ACC: 0.9198
+EPOCH:83 Iter:20 of 122 Loss:0.2557 Acc:0.9101
+EPOCH:83 Iter:40 of 122 Loss:0.1755 Acc:0.9337
+EPOCH:83 Iter:60 of 122 Loss:0.2290 Acc:0.9288
+EPOCH:83 Iter:80 of 122 Loss:0.1468 Acc:0.9405
+EPOCH:83 Iter:100 of 122 Loss:0.1594 Acc:0.9392
+EPOCH:83 Iter:120 of 122 Loss:0.1770 Acc:0.9303
+epoch:83,train ACC: 0.9375
+epoch:83,val ACC: 0.9142
+EPOCH:84 Iter:20 of 122 Loss:0.1541 Acc:0.9420
+EPOCH:84 Iter:40 of 122 Loss:0.1798 Acc:0.9357
+EPOCH:84 Iter:60 of 122 Loss:0.1512 Acc:0.9364
+EPOCH:84 Iter:80 of 122 Loss:0.1895 Acc:0.9291
+EPOCH:84 Iter:100 of 122 Loss:0.1663 Acc:0.9337
+EPOCH:84 Iter:120 of 122 Loss:0.1483 Acc:0.9425
+epoch:84,train ACC: 0.9396
+epoch:84,val ACC: 0.9179
+EPOCH:85 Iter:20 of 122 Loss:0.1754 Acc:0.9322
+EPOCH:85 Iter:40 of 122 Loss:0.1482 Acc:0.9428
+EPOCH:85 Iter:60 of 122 Loss:0.1907 Acc:0.9318
+EPOCH:85 Iter:80 of 122 Loss:0.1836 Acc:0.9322
+EPOCH:85 Iter:100 of 122 Loss:0.1436 Acc:0.9396
+EPOCH:85 Iter:120 of 122 Loss:0.1708 Acc:0.9374
+epoch:85,train ACC: 0.9397
+epoch:85,val ACC: 0.9187
+EPOCH:86 Iter:20 of 122 Loss:0.1624 Acc:0.9395
+EPOCH:86 Iter:40 of 122 Loss:0.1366 Acc:0.9459
+EPOCH:86 Iter:60 of 122 Loss:0.1666 Acc:0.9342
+EPOCH:86 Iter:80 of 122 Loss:0.1364 Acc:0.9447
+EPOCH:86 Iter:100 of 122 Loss:0.1676 Acc:0.9280
+EPOCH:86 Iter:120 of 122 Loss:0.1711 Acc:0.9334
+epoch:86,train ACC: 0.9406
+epoch:86,val ACC: 0.9158
+EPOCH:87 Iter:20 of 122 Loss:0.1853 Acc:0.9365
+EPOCH:87 Iter:40 of 122 Loss:0.2101 Acc:0.9159
+EPOCH:87 Iter:60 of 122 Loss:0.1766 Acc:0.9347
+EPOCH:87 Iter:80 of 122 Loss:0.1471 Acc:0.9442
+EPOCH:87 Iter:100 of 122 Loss:0.1799 Acc:0.9321
+EPOCH:87 Iter:120 of 122 Loss:0.1914 Acc:0.9263
+epoch:87,train ACC: 0.9413
+epoch:87,val ACC: 0.9190
+EPOCH:88 Iter:20 of 122 Loss:0.1753 Acc:0.9303
+EPOCH:88 Iter:40 of 122 Loss:0.2118 Acc:0.9226
+EPOCH:88 Iter:60 of 122 Loss:0.1520 Acc:0.9412
+EPOCH:88 Iter:80 of 122 Loss:0.1796 Acc:0.9314
+EPOCH:88 Iter:100 of 122 Loss:0.1964 Acc:0.9254
+EPOCH:88 Iter:120 of 122 Loss:0.1648 Acc:0.9415
+epoch:88,train ACC: 0.9314
+epoch:88,val ACC: 0.9142
+EPOCH:89 Iter:20 of 122 Loss:0.1840 Acc:0.9277
+EPOCH:89 Iter:40 of 122 Loss:0.1868 Acc:0.9239
+EPOCH:89 Iter:60 of 122 Loss:0.2014 Acc:0.9313
+EPOCH:89 Iter:80 of 122 Loss:0.1863 Acc:0.9281
+EPOCH:89 Iter:100 of 122 Loss:0.2059 Acc:0.9205
+EPOCH:89 Iter:120 of 122 Loss:0.2536 Acc:0.9145
+epoch:89,train ACC: 0.9344
+epoch:89,val ACC: 0.9166
+EPOCH:90 Iter:20 of 122 Loss:0.1904 Acc:0.9213
+EPOCH:90 Iter:40 of 122 Loss:0.1836 Acc:0.9297
+EPOCH:90 Iter:60 of 122 Loss:0.1854 Acc:0.9317
+EPOCH:90 Iter:80 of 122 Loss:0.1888 Acc:0.9335
+EPOCH:90 Iter:100 of 122 Loss:0.1817 Acc:0.9308
+EPOCH:90 Iter:120 of 122 Loss:0.1830 Acc:0.9278
+epoch:90,train ACC: 0.9380
+epoch:90,val ACC: 0.9202
+EPOCH:91 Iter:20 of 122 Loss:0.1561 Acc:0.9442
+EPOCH:91 Iter:40 of 122 Loss:0.1551 Acc:0.9357
+EPOCH:91 Iter:60 of 122 Loss:0.1296 Acc:0.9472
+EPOCH:91 Iter:80 of 122 Loss:0.1846 Acc:0.9330
+EPOCH:91 Iter:100 of 122 Loss:0.1517 Acc:0.9452
+EPOCH:91 Iter:120 of 122 Loss:0.1875 Acc:0.9293
+epoch:91,train ACC: 0.9387
+epoch:91,val ACC: 0.9127
+EPOCH:92 Iter:20 of 122 Loss:0.1562 Acc:0.9436
+EPOCH:92 Iter:40 of 122 Loss:0.1910 Acc:0.9273
+EPOCH:92 Iter:60 of 122 Loss:0.1527 Acc:0.9393
+EPOCH:92 Iter:80 of 122 Loss:0.1270 Acc:0.9540
+EPOCH:92 Iter:100 of 122 Loss:0.1175 Acc:0.9537
+EPOCH:92 Iter:120 of 122 Loss:0.1907 Acc:0.9283
+epoch:92,train ACC: 0.9421
+epoch:92,val ACC: 0.9206
+EPOCH:93 Iter:20 of 122 Loss:0.1387 Acc:0.9501
+EPOCH:93 Iter:40 of 122 Loss:0.1699 Acc:0.9276
+EPOCH:93 Iter:60 of 122 Loss:0.1487 Acc:0.9430
+EPOCH:93 Iter:80 of 122 Loss:0.1755 Acc:0.9286
+EPOCH:93 Iter:100 of 122 Loss:0.1925 Acc:0.9281
+EPOCH:93 Iter:120 of 122 Loss:0.1637 Acc:0.9364
+epoch:93,train ACC: 0.9404
+epoch:93,val ACC: 0.9209
+EPOCH:94 Iter:20 of 122 Loss:0.1475 Acc:0.9408
+EPOCH:94 Iter:40 of 122 Loss:0.1971 Acc:0.9241
+EPOCH:94 Iter:60 of 122 Loss:0.1443 Acc:0.9460
+EPOCH:94 Iter:80 of 122 Loss:0.1488 Acc:0.9406
+EPOCH:94 Iter:100 of 122 Loss:0.1432 Acc:0.9401
+EPOCH:94 Iter:120 of 122 Loss:0.1413 Acc:0.9464
+epoch:94,train ACC: 0.9431
+epoch:94,val ACC: 0.9205
+EPOCH:95 Iter:20 of 122 Loss:0.1660 Acc:0.9347
+EPOCH:95 Iter:40 of 122 Loss:0.1672 Acc:0.9318
+EPOCH:95 Iter:60 of 122 Loss:0.1709 Acc:0.9375
+EPOCH:95 Iter:80 of 122 Loss:0.1855 Acc:0.9376
+EPOCH:95 Iter:100 of 122 Loss:0.1801 Acc:0.9364
+EPOCH:95 Iter:120 of 122 Loss:0.1597 Acc:0.9362
+epoch:95,train ACC: 0.9425
+epoch:95,val ACC: 0.9239
+EPOCH:96 Iter:20 of 122 Loss:0.1572 Acc:0.9425
+EPOCH:96 Iter:40 of 122 Loss:0.1584 Acc:0.9409
+EPOCH:96 Iter:60 of 122 Loss:0.1674 Acc:0.9321
+EPOCH:96 Iter:80 of 122 Loss:0.1650 Acc:0.9361
+EPOCH:96 Iter:100 of 122 Loss:0.1685 Acc:0.9327
+EPOCH:96 Iter:120 of 122 Loss:0.1612 Acc:0.9386
+epoch:96,train ACC: 0.9377
+epoch:96,val ACC: 0.9164
+EPOCH:97 Iter:20 of 122 Loss:0.1709 Acc:0.9293
+EPOCH:97 Iter:40 of 122 Loss:0.1526 Acc:0.9405
+EPOCH:97 Iter:60 of 122 Loss:0.1465 Acc:0.9449
+EPOCH:97 Iter:80 of 122 Loss:0.1638 Acc:0.9345
+EPOCH:97 Iter:100 of 122 Loss:0.1441 Acc:0.9445
+EPOCH:97 Iter:120 of 122 Loss:0.1781 Acc:0.9295
+epoch:97,train ACC: 0.9411
+epoch:97,val ACC: 0.9226
+EPOCH:98 Iter:20 of 122 Loss:0.1577 Acc:0.9405
+EPOCH:98 Iter:40 of 122 Loss:0.1636 Acc:0.9328
+EPOCH:98 Iter:60 of 122 Loss:0.1670 Acc:0.9349
+EPOCH:98 Iter:80 of 122 Loss:0.1757 Acc:0.9308
+EPOCH:98 Iter:100 of 122 Loss:0.1644 Acc:0.9382
+EPOCH:98 Iter:120 of 122 Loss:0.1516 Acc:0.9430
+epoch:98,train ACC: 0.9409
+epoch:98,val ACC: 0.9197
+EPOCH:99 Iter:20 of 122 Loss:0.1534 Acc:0.9375
+EPOCH:99 Iter:40 of 122 Loss:0.1898 Acc:0.9261
+EPOCH:99 Iter:60 of 122 Loss:0.1588 Acc:0.9379
+EPOCH:99 Iter:80 of 122 Loss:0.1547 Acc:0.9339
+EPOCH:99 Iter:100 of 122 Loss:0.1602 Acc:0.9396
+EPOCH:99 Iter:120 of 122 Loss:0.1261 Acc:0.9473
+epoch:99,train ACC: 0.9416
+epoch:99,val ACC: 0.9189
