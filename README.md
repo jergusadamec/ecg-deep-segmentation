@@ -263,7 +263,7 @@ From the plot, we can see that the model trained on the 5th experiment setup con
 - every library used in the project is in **requirements.txt** file,
 - the whole report should be reproducible,
 - neural network is implemented in PyTorch.
-- scripts are configured to dynamically determine whether to use computations on CPU or on GPU, if availabl,
+- scripts are configured to dynamically determine whether to use computations on CPU or on GPU, if available,
 - build dataset is saved in `.pkl` format,
 - all artefacts for each experiments are in project folder - 'resources'.
    
