@@ -52,7 +52,12 @@ class CnnSegModel(nn.Module):
 		self.features = nn.Sequential(
 			nn.Conv1d(in_channels=input_size, out_channels=1, kernel_size=kernel_size, padding=0),
 			nn.ReLU(),
-			# nn.MaxPool1d(3, stride=1),
+			nn.MaxPool1d(3, stride=1),
+			nn.Dropout(),
+
+			nn.Conv1d(in_channels=input_size, out_channels=1, kernel_size=kernel_size, padding=0),
+			nn.ReLU(),
+			nn.MaxPool1d(3, stride=1),
 			nn.Dropout()
 		)
 		# Classify output, fully connected layers
