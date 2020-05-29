@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 
-def train_val_test_data_split (
+def train_val_test_data_split(
 		X: np.ndarray,
 		y: np.ndarray,
 		val=.05,
@@ -36,13 +36,13 @@ def train_val_test_data_split (
 	return train_set, val_set, test_set
 
 
-def restore_net (ckpt):
+def restore_net(ckpt):
 	with open(ckpt, 'rb') as f:
 		net = torch.load(f, map_location=torch.device('cuda' if torch.cuda.is_available() else 'cpu'))
 	return net
 
 
-def load_json (filename):
+def load_json(filename):
 	with open(filename) as f:
 		data = json.load(f)
 		f.close()
@@ -50,13 +50,13 @@ def load_json (filename):
 		return data
 
 
-def save_as_pkl (filename_path, data):
+def save_as_pkl(filename_path, data):
 	with open(filename_path, 'wb') as f:
 		pickle.dump(data, f)
 		f.close()
 
 
-def plotecg (x, y, start, end):
+def plotecg(x, y, start, end):
 	x = x[start:end, 0]
 	y = y[start:end]
 	cmap = ['k', 'r', 'g', 'b']
@@ -69,7 +69,7 @@ def plotecg (x, y, start, end):
 	plt.show()
 
 
-def plot_rewards_with_std (reward, std_reward_plus, std_reward_minus, xlabel, ylabel):
+def plot_rewards_with_std(reward, std_reward_plus, std_reward_minus, xlabel, ylabel):
 	x = [i for i in range(len(reward))]
 	y = reward
 
@@ -89,7 +89,7 @@ def plot_rewards_with_std (reward, std_reward_plus, std_reward_minus, xlabel, yl
 	plt.show()
 
 
-def plot_learning_curve (data, xlabel, ylabel):
+def plot_learning_curve(data, xlabel, ylabel):
 	means = list(map(lambda x: np.mean(x, axis=0), data))
 	std = list(map(lambda x: np.std(x, axis=0), data))
 
@@ -104,15 +104,15 @@ def plot_learning_curve (data, xlabel, ylabel):
 	]
 
 	plot_rewards_with_std(
-			reward=means,
-			std_reward_plus=std_plus,
-			std_reward_minus=std_minus,
-			xlabel=xlabel,
-			ylabel=ylabel
+		reward=means,
+		std_reward_plus=std_plus,
+		std_reward_minus=std_minus,
+		xlabel=xlabel,
+		ylabel=ylabel
 	)
 
 
-def plot_dist_with_stats (
+def plot_dist_with_stats(
 		data,
 		labels=None,
 		title='Distribution of ECG Signal',
@@ -144,45 +144,88 @@ def plot_dist_with_stats (
 	return ax
 
 
-def print_confusion_matrix (confusion_matrix, class_names, figsize=(10, 7), fontsize=14):
-	# plt.imshow(confusion_matrix, cmap='binary', interpolation='None')
-	# plt.show()
+def plot_confusion_matrix(confusion_matrix, target_names, title='Confusion matrix', cmap=None, normalize=True):
+	"""
+	source: https://www.kaggle.com/grfiv4/plot-a-confusion-matrix
 
-
-	"""Prints a confusion matrix, as returned by sklearn.metrics.confusion_matrix, as a heatmap.
-
-	borrowed from: https://gist.github.com/shaypal5/94c53d765083101efc0240d776a23823
+	given a sklearn confusion matrix (cm), make a nice plot
 
 	Arguments
 	---------
-	confusion_matrix: numpy.ndarray
-		The numpy.ndarray object returned from a call to sklearn.metrics.confusion_matrix.
-		Similarly constructed ndarrays can also be used.
-	class_names: list
-		An ordered list of class names, in the order they index the given confusion matrix.
-	figsize: tuple
-		A 2-long tuple, the first value determining the horizontal size of the ouputted figure,
-		the second determining the vertical size. Defaults to (10,7).
-	fontsize: int
-		Font size for axes labels. Defaults to 14.
+	confusion_matrix: confusion matrix from sklearn.metrics.confusion_matrix
 
-	Returns
-	-------
-	matplotlib.figure.Figure
-		The resulting confusion matrix figure
+	target_names: given classification classes such as [0, 1, 2]
+				  the class names, for example: ['high', 'medium', 'low']
+
+	title:        the text to display at the top of the matrix
+
+	cmap:         the gradient of the values displayed from matplotlib.pyplot.cm
+				  see http://matplotlib.org/examples/color/colormaps_reference.html
+				  plt.get_cmap('jet') or plt.cm.Blues
+
+	normalize:    If False, plot the raw numbers
+				  If True, plot the proportions
+
+	Usage
+	-----
+	plot_confusion_matrix(cm           = cm,                  # confusion matrix created by
+															  # sklearn.metrics.confusion_matrix
+						  normalize    = True,                # show proportions
+						  target_names = y_labels_vals,       # list of names of the classes
+						  title        = best_estimator_name) # title of graph
+
+	Citiation
+	---------
+	http://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
+
 	"""
-	df_cm = pd.DataFrame(
-			confusion_matrix, index=class_names, columns=class_names,
-	)
-	fig = plt.figure(figsize=figsize)
-	try:
-		heatmap = sns.heatmap(df_cm, annot=True, fmt="d")
-	except ValueError:
-		raise ValueError("Confusion matrix values must be integers.")
-	heatmap.yaxis.set_ticklabels(heatmap.yaxis.get_ticklabels(), rotation=0, ha='right', fontsize=fontsize)
-	heatmap.xaxis.set_ticklabels(heatmap.xaxis.get_ticklabels(), rotation=45, ha='right', fontsize=fontsize)
-	plt.ylabel('True label')
-	plt.xlabel('Predicted label')
+	import matplotlib.pyplot as plt
+	import numpy as np
+	import itertools
 
+	accuracy = np.trace(confusion_matrix) / float(np.sum(confusion_matrix))
+	misclass = 1 - accuracy
+
+	if cmap is None:
+		cmap = plt.get_cmap('Blues')
+
+	plt.figure(figsize=(8, 6))
+	plt.imshow(confusion_matrix, interpolation='nearest', cmap=cmap)
+	plt.title(title)
+	plt.colorbar()
+
+	if target_names is not None:
+		tick_marks = np.arange(len(target_names))
+		plt.xticks(tick_marks, target_names, rotation=45, size=19)
+		plt.yticks(tick_marks, target_names, size=19)
+
+	if normalize:
+		cm = confusion_matrix.astype('float') / confusion_matrix.sum(axis=1)[:, np.newaxis]
+
+	thresh = cm.max() / 1.5 if normalize else cm.max() / 2
+	for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
+		color = "white" if cm[i, j] > thresh else "black"
+		if i == j:
+			if i == 0:
+				color = 'white'
+			else:
+				color = 'black'
+		if normalize:
+			plt.text(
+				j, i, "{:0.4f}".format(cm[i, j]),
+				horizontalalignment="center",
+				color=color,
+				size=23
+			)
+		else:
+			plt.text(
+				j, i, "{:,}".format(cm[i, j]),
+				horizontalalignment="center",
+				color=color,
+				size=23
+			)
+
+	plt.tight_layout()
+	plt.ylabel('True label', size=23)
+	plt.xlabel('Predicted label\naccuracy={:0.4f}; misclass={:0.4f}'.format(accuracy, misclass), size=23)
 	plt.show()
-	return fig

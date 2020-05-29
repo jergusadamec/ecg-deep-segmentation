@@ -5,6 +5,7 @@ from torch.utils.data import DataLoader
 import config
 from engine import test
 from engine import train
+from engine import eval
 from modeling import ECGDataset, PyTorchMinMaxScalerVectorized, fit_min_max_scaler
 from modeling import model_factory
 from util import restore_net
@@ -21,11 +22,15 @@ DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 qtdb_pkl = 'resources/qtdb_pkl/'
 save_path = 'resources/ckpt'
 
+PATH_TO_TEST_MODEL = 'resources/z-score-data/ckpt' + '/epoch_99.ckpt'
 
 if __name__ == '__main__':
     print(DEVICE)
     if DEVICE == 'cuda':
         print(torch.cuda.get_device_name(0))
+
+    print('TEST: ' + str(TEST))
+    print('PATH_TO_TEST_MODEL: '+ str(PATH_TO_TEST_MODEL))
 
     train_data_path = '/train_set.pkl'
     val_data_path = '/val_set.pkl'
@@ -92,20 +97,33 @@ if __name__ == '__main__':
         )
 
     if TEST:
-        net = restore_net(save_path + '/epoch_99.ckpt')
+        net = restore_net(PATH_TO_TEST_MODEL)
         net.eval()
         net.to(DEVICE)
 
         # after the training run function for train/val/test loader
         loader = test_loader
 
-        test(
+        ecgs, y_true, y_pred = test(
                 net=net,
                 test_loader=loader,
                 device=DEVICE,
-                window_size=WINDOWS_SIZE,
                 batch_size=BATCH_SIZE,
-                plot=False
+                plot_ecg=False,
+                plot_ecg_windows_size=WINDOWS_SIZE
+        )
+
+        eval(
+            ecgs=ecgs,
+            y_true=y_true,
+            y_pred=y_pred,
+            labels=[0, 1, 2, 3, 4],
+            target_names=['none', 'p_wave', 'qrs', 't_wave', 'extrasystole'],
+            plot_acc=True,
+            plot_loss=True,
+            plot_conf_matrix=True,
+            plot_ecg=True,
+            plot_ecg_windows_size=WINDOWS_SIZE
         )
 
 
