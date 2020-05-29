@@ -70,7 +70,12 @@ class CnnSegModel(nn.Module):
 					bidirectional=True
 			)
 		)
-		self.deconv = nn.ConvTranspose1d(in_channels=2*hidden_size, out_channels=hidden_size, kernel_size=kernel_size, padding=0)
+		# self.deconv = nn.ConvTranspose1d(in_channels=2*hidden_size, out_channels=hidden_size, kernel_size=kernel_size, padding=0)
+
+		self.upsampling = nn.Sequential(
+			nn.
+		)
+
 		self.classifier = torch.nn.Sequential(
 			torch.nn.Linear(hidden_size, 2 * hidden_size),
 			torch.nn.ReLU(inplace=True),
